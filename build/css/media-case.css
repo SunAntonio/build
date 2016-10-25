@@ -1,0 +1,9 @@
+@media screen and (max-width: 1200px) {
+    .contain .inner{width: 100%}
+    .contain .inner .header .nav{display: none}
+    .contain .inner .main{width: 100%}
+    .contain .inner .main .left{width: 100%;float: none;text-align: center;padding: 0;margin: 0;}
+    .contain .inner .main .right{display: none}
+    .contain .border {margin-top: 2em;}
+    #iphone-head{display: block}
+}

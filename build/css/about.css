@@ -1,0 +1,13 @@
+.contain .inner .main{font-size: 1em;text-align: left;color: #696969;font-family: 微軟正黑體;}
+.contain .inner .main .left{width: 65%;float: left;background: #f2f2f2;padding: 3em 2em;margin-right: 1em}
+.contain .inner .main .left p{line-height: 1.5em;padding: 1em 0}
+.contain .inner .main .left .detail-image{width: 100%;}
+.contain .inner .main .left .detail-image img{width: 100%}
+.contain .inner .main .right{width: 28%;float: left;background: #f2f2f2;}
+
+.contain .inner .main .right h3{text-align: center;background: #000000;color: #e1edf7;height: 35px;line-height: 35px;font-size: 16px;margin: 5px 5px 23px 5px;}
+.contain .inner .main .right .item{padding:13px 25px 13px;}
+.contain .inner .main .right .item input{height: 2em;width: 100%;border: 1px solid #c2c2c2;font-size: 14px;}
+.contain .inner .main .right .item p{line-height: 24px;}
+.contain .inner .main .right #offer-btn{background: #000000;color: #e1edf7;height: 35px;line-height: 35px;font-size: 16px;text-align: center;margin: 5px 5px 62px 5px;}
+.contain .border{margin-top: 5em}

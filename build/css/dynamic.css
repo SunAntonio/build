@@ -1,0 +1,16 @@
+.contain .border{margin-top: 5em}
+.contain .main #tabs{text-align: left;width: 100%}
+.contain .main #tabs ul {height: 31px;background: #fff;padding: 2em 0 0 2em}
+.contain .main #tabs ul li {float: left;}
+.contain .main #tabs ul li a {display: block;padding: 0 12px;line-height: 29px;color: #271d1e;font-size: 14px;}
+.contain .main #tabs ul li .current {border-bottom: black solid 1px;background-color: white;color: mediumblue}
+.contain .main #content {background: #fff;height: 100%}
+.contain .main #content h3 {line-height: 47px;font-size: 22px;color: #434142;border-bottom: #e2e2e2 dashed 1px;margin-bottom: 10px;}
+.contain .main #content > div {padding:0 2em 1.5em;display: none;}
+.contain .main #tabs  #content > div ul{padding-left: 0}
+.contain .main #tabs  #content > div ul li{border-bottom: 1px solid #DADADA;margin-bottom: 2em}
+.contain .main #content > div .left {float: left;width: 26%;padding-right: 4%}
+.contain .main #content > div .left a{display: block}
+.contain .main #content > div .left a{width: 100%}
+.contain .main #content > div .right {float: left;width: 70%}
+.contain .main #content p {color: #999999;font-size: 12px;line-height: 21px;}

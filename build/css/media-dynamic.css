@@ -1,0 +1,15 @@
+@media screen and (max-width: 1200px) {
+    .contain .inner{width: 100%}
+    .contain .main #content > div .left {float: left;width: 40%;padding-right: 0;margin: 0 auto}
+    .contain .main #content > div .right {float: left;width: 50%}
+    .contain .border {margin-top: 2em;}
+}
+@media screen and (max-width: 860px) {
+    .contain .inner{width: 100%}
+    .contain .inner .header .nav{display: none}
+    .contain .main #content > div .left {float: none;width: 100%;}
+
+    .contain .main #content > div .right {float: left;width: 100%}
+    .contain .border {margin-top: 2em;}
+    #iphone-head{display: block}
+}

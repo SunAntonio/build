@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>建筑新浪潮</title>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/animation.css" rel="stylesheet" type="text/css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link href="css/media-index.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/style.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        $(function(){
+            var $nav =$(".nav").find("li");
+            $nav.eq(0).addClass("bg");
+            $nav.each(function(index){
+                $(this).on("click",function(){
+
+                    // 切换标题的焦点
+                    $(this).addClass("bg");
+                    $(this).siblings().removeClass();
+                });
+            });
+            mood("mid")
+        });
+    </script>
+</head>
+<body>
+<div id="iphone-head">
+    <span><a>首页</a></span>
+    <span class="fa fa-angle-down menu-right"><a></a></span>
+</div>
+   <div class="body"></div>
+    <div class="background"></div>
+    <div class="contain clear">
+        <div class="inner">
+            <div class="header">
+                <h1>建筑新浪潮</h1>
+                <div class="nav">
+                    <ul class="clear">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="views/about.html">我们</a></li>
+                        <li><a href="views/case.html">案例</a></li>
+                        <li><a href="views/dynamic.html">动态</a></li>
+                        <li><a href="views/relation.html">联系</a></li>
+                        <li><a href="views/team.html">设计师团队</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-top clear">
+                <div class="left">
+                    <ul>
+                        <li class="clear">
+                            <div class="img">
+                                <img src="images/nav-slider1.jpg">
+                            </div>
+                            <div class="broadside">
+                                <h4>空间改造</h4>
+                                <p>人气设计方案</p>
+                                <a>点击查看</a>
+                            </div>
+                        </li>
+                        <li class="clear">
+                            <div class="img">
+                                <img src="images/nav-slider2.jpg">
+                            </div>
+                            <div class="broadside">
+                                <h4>空间改造</h4>
+                                <p>人气设计方案</p>
+                                <a>点击查看</a>
+                            </div>
+                        </li>
+                        <li class="clear">
+                            <div class="img">
+                                <img src="images/nav-slider3.jpg">
+                            </div>
+                            <div class="broadside">
+                                <h4>空间改造</h4>
+                                <p>人气设计方案</p>
+                                <a>点击查看</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="center" id="mid">
+                    <div class="slide">
+                        <ul class="clear">
+                            <li><div class="img"><img src="images/slide1.jpg"></div></li>
+                            <li><div class="img"><img src="images/slide2.jpg"></div></li>
+                            <li><div class="img"><img src="images/slide3.jpg"></div></li>
+                            <li><div class="img"><img src="images/slide4.jpg"></div></li>
+                        </ul>
+                    </div>
+                    <div class="btn clear">
+                        <a>1</a>
+                        <a>2</a>
+                        <a>3</a>
+                        <a>4</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <h3>家装快速报价</h3>
+                    <div class="item">
+                        <p>您的姓名</p>
+                        <input type="text">
+                    </div>
+                   <div class="item">
+                       <p>联系电话</p>
+                       <input type="text">
+                   </div>
+                    <div class="item">
+                        <p>房屋面积(m²)</p>
+                        <input type="text">
+                    </div>
+                    <div id="offer-btn"><a href="#">快速获取装修报价</a></div>
+                </div>
+            </div>
+            <div class="main-handle">
+                <div class="title">
+                    <h3>定制流程<br>Activity Process</h3>
+                </div>
+                <div class="details">
+                    <ul class="clear">
+                        <li>
+                            <div class="icon"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+                            <h3>网上报名</h3>
+                            <p>免费量房</p>
+                            <div class="step"><a href="#">第一步</a></div>
+                        </li>
+                        <li>
+                            <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                            <h3>上门量房</h3>
+                            <p>查看方案</p>
+                            <div class="step"><a href="#">第二步</a></div>
+                        </li>
+                        <li>
+                            <div class="icon"><i class="fa fa-qq" aria-hidden="true"></i></div>
+                            <h3>设计方案及预算</h3>
+                            <p>获取效果图</p>
+                            <div class="step"><a href="#">第三步</a></div>
+                        </li>
+                        <li class="last">
+                            <div class="icon"><i class="fa fa-file-o" aria-hidden="true"></i></div>
+                            <h3>开启幸福家装之旅</h3>
+                            <p>获取效果图</p>
+                            <div class="step"><a href="#">第四步</a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-show">
+                <div class="title">
+                    <h3>案例展示<br>Showcase</h3>
+                </div>
+                <div class="details clear">
+                    <div class="left">
+                        <ul>
+                            <li>
+                                <div class="top">
+                                    <img src="images/main-show1.jpg">
+                                    <div class="Mask"><span><img src="images/big-black-plus.png"></span></div>
+                                </div>
+                                <p>#样板案例#1</p>
+                            </li>
+                            <li>
+                                <div class="top">
+                                    <img src="images/main-show1.jpg">
+                                    <div class="Mask"><span><img src="images/big-black-plus.png"></span></div>
+                                </div>
+                                <p>#样板案例#1</p>
+                            </li>
+                            <li>
+                                <div class="top">
+                                    <img src="images/main-show1.jpg">
+                                    <div class="Mask"><span><img src="images/big-black-plus.png"></span></div>
+                                </div>
+                                <p>#样板案例#1</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="left">
+                        <ul>
+                            <li>
+                                <div class="top">
+                                    <img src="images/main-show1.jpg">
+                                    <div class="Mask"><span><img src="images/big-black-plus.png"></span></div>
+                                </div>
+                                <p>#样板案例#1</p>
+                            </li>
+                            <li>
+                                <div class="top">
+                                    <img src="images/main-show1.jpg">
+                                    <div class="Mask"><span><img src="images/big-black-plus.png"></span></div>
+                                </div>
+                                <p>#样板案例#1</p>
+                            </li>
+                            <li>
+                                <div class="top">
+                                    <img src="images/main-show1.jpg">
+                                    <div class="Mask"><span><img src="images/big-black-plus.png"></span></div>
+                                </div>
+                                <p>#样板案例#1</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <div class="step"><a href="#">装修资讯</a></div>
+                        <div class="post">
+                            <ul class="clear header">
+                                <li><a href="#">全部</a></li>
+                                <li><a href="#">装修资讯</a></li>
+                            </ul>
+                            <ul class="clear main">
+                                <li>
+                                    <h3>【装修资讯】家装细节之开关插座的选择01</h3>
+                                    <div class="detail">
+                                        <img src="images/news-img1.jpg">
+                                        <div class="Mask"><span><img src="images/big-black-plus.png"></span></div>
+                                    </div>
+                                    <div class="post-comment">
+                                        <span class="post_date">发布日期：
+                                            <span data-date="2016-08-26 09:59:36" class="post_date_text">2016-08-26</span>
+                                        </span>
+                                    </div>
+                                    <div class="content-detail">
+                                        <p>开关插座的关键不用多说，大家都懂得，如何判断开关插座的品质呢？有几点倒是可以借鉴。1、将开关或插座的外框取下来，用手捏一下，如果不会断裂说明是比较好的PC料...</p>
+                                        <a  href="#" class="read_more " title="【装修资讯】家装细节之开关插座的选择01">阅读正文</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h3>【装修资讯】家装细节之开关插座的选择01</h3>
+                                    <div class="detail">
+                                        <img src="images/news-img1.jpg">
+                                        <div class="Mask"><span><img src="images/big-black-plus.png"></span></div>
+                                    </div>
+                                    <div class="post-comment">
+                                        <span class="post_date">发布日期：
+                                            <span data-date="2016-08-26 09:59:36" class="post_date_text">2016-08-26</span>
+                                        </span>
+                                    </div>
+                                    <div class="content-detail">
+                                        <p>开关插座的关键不用多说，大家都懂得，如何判断开关插座的品质呢？有几点倒是可以借鉴。1、将开关或插座的外框取下来，用手捏一下，如果不会断裂说明是比较好的PC料...</p>
+                                        <a  href="#" class="read_more " title="【装修资讯】家装细节之开关插座的选择01">阅读正文</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="pagenav">
+                                <a href="#">首页</a>
+                                <a href="#">上一页</a>
+                                <a href="#">1</a>
+                                <a href="#">2</a>
+                                <a href="#">3</a>
+                                <a href="#">4</a>
+                                <a href="#">下一页</a>
+                                <a href="#">尾页</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-team clear">
+                <div class="title">
+                    <h3>设计师团队<br>Designer Team</h3>
+                </div>
+                <div class="section">
+                        <ul class="clear">
+                            <li>
+                                <div class="sec-img">
+                                    <img src="images/person1.jpg">
+                                </div>
+                                <div class="name">
+                                    <span>张媛</span>
+                                    <span class="profession">优秀设计师</span>
+                                </div>
+                                <div class="introduce">
+                                    <span>经验：</span>
+                                    <span class="yew">8年</span>
+                                    <span>代表作：</span>
+                                    <span class="num">3件</span>
+                                </div>
+                                <div class="more"><a href="#">查看TA的案例</a></div>
+                            </li>
+                            <li>
+                                <div class="sec-img">
+                                    <img src="images/person2.jpg">
+                                </div>
+                                <div class="name">
+                                    <span>张媛</span>
+                                    <span class="profession">优秀设计师</span>
+                                </div>
+                                <div class="introduce">
+                                    <span>经验：</span>
+                                    <span class="yew">8年</span>
+                                    <span>代表作：</span>
+                                    <span class="num">3件</span>
+                                </div>
+                                <div class="more"><a href="#">查看TA的案例</a></div>
+                            </li>
+                            <li>
+                                <div class="sec-img">
+                                    <img src="images/person3.jpg">
+                                </div>
+                                <div class="name">
+                                    <span>张媛</span>
+                                    <span class="profession">优秀设计师</span>
+                                </div>
+                                <div class="introduce">
+                                    <span>经验：</span>
+                                    <span class="yew">8年</span>
+                                    <span>代表作：</span>
+                                    <span class="num">3件</span>
+                                </div>
+                                <div class="more"><a href="#">查看TA的案例</a></div>
+                            </li>
+                            <li>
+                                <div class="sec-img">
+                                    <img src="images/person4.jpg">
+                                </div>
+                                <div class="name">
+                                    <span>张媛</span>
+                                    <span class="profession">优秀设计师</span>
+                                </div>
+                                <div class="introduce">
+                                    <span>经验：</span>
+                                    <span class="yew">8年</span>
+                                    <span>代表作：</span>
+                                    <span class="num">3件</span>
+                                </div>
+                                <div class="more"><a href="#">查看TA的案例</a></div>
+                            </li>
+                            <li>
+                                <div class="sec-img">
+                                    <img src="images/person5.jpg">
+                                </div>
+                                <div class="name">
+                                    <span>张媛</span>
+                                    <span class="profession">优秀设计师</span>
+                                </div>
+                                <div class="introduce">
+                                    <span>经验：</span>
+                                    <span class="yew">8年</span>
+                                    <span>代表作：</span>
+                                    <span class="num">3件</span>
+                                </div>
+                                <div class="more"><a href="#">查看TA的案例</a></div>
+                            </li>
+                            <li>
+                                <div class="sec-img">
+                                    <img src="images/person6.jpg">
+                                </div>
+                                <div class="name">
+                                    <span>张媛</span>
+                                    <span class="profession">优秀设计师</span>
+                                </div>
+                                <div class="introduce">
+                                    <span>经验：</span>
+                                    <span class="yew">8年</span>
+                                    <span>代表作：</span>
+                                    <span class="num">3件</span>
+                                </div>
+                                <div class="more"><a href="#">查看TA的案例</a></div>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="serve">
+                <div class="title">
+                    <h3>服务优势<br>Service Advantages</h3>
+                </div>
+                <div class="serve-detail">
+                    <ul class="clear">
+                        <li>
+                            <h3>
+                                <a href="#">
+                                    <i class="fa fa-tree"></i>
+                                </a>
+                            </h3>
+                            <h3>环保材料</h3>
+                            <p>甄选全球优质家装材料</p>
+                            <p>享受欧式级的环保品质</p>
+                        </li>
+                        <li>
+                            <h3>
+                                <a href="#">
+                                    <i class="fa fa-archive"></i>
+                                </a>
+                            </h3>
+                            <h3>配套产品</h3>
+                            <p>完美的家装设计离不开</p>
+                            <p>风格相依的配套产品</p>
+                        </li>
+                        <li>
+                            <h3>
+                                <a href="#">
+                                    <i class="fa fa-wrench"></i>
+                                </a>
+                            </h3>
+                            <h3>精湛工艺</h3>
+                            <p>精湛的家装施工工艺是</p>
+                            <p>家装品质的基础保障</p>
+                        </li>
+                        <li>
+                            <h3>
+                                <a href="#">
+                                    <i class="fa fa-tags"></i>
+                                </a>
+                            </h3>
+                            <h3>严苛验收</h3>
+                            <p>良心品质源于对过</p>
+                            <p>程细节的极致苛求</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-news">
+                <div class="title">
+                    <h3>动态新闻<br>Decorate A Knowledge</h3>
+                </div>
+                <div class="news-content">
+                    <ul class="clear">
+                        <li>
+                            <div class="tab clear">
+                                <a href="#">装修资讯</a>
+                                <a href="#" class="more">更多<span class="tip">>></span></a>
+                            </div>
+                            <div class="news">
+                                <P><span><a href="#">【装修资讯】家装细节之开关插座的选择01</a></span></P>
+                                <P><span><a href="#">【装修资讯】家装细节之开关插座的选择02</a></span></P>
+                                <P><span><a href="#">【装修资讯】家装细节之开关插座的选择03</a></span></P>
+                                <P><span><a href="#">【装修资讯】家装细节之开关插座的选择04</a></span></P>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tab clear">
+                                <a href="#">装修资讯</a>
+                                <a href="#" class="more">更多<span class="tip">>></span></a>
+                            </div>
+                            <div class="news">
+                                <P><span><a href="#">【装修资讯】家装细节之开关插座的选择01</a></span></P>
+                                <P><span><a href="#">【装修资讯】家装细节之开关插座的选择02</a></span></P>
+                                <P><span><a href="#">【装修资讯】家装细节之开关插座的选择03</a></span></P>
+                                <P><span><a href="#">【装修资讯】家装细节之开关插座的选择04</a></span></P>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="new-img">
+                                <img src="images/foot-new-img1.jpg">
+                                <p><a href="#">动态新闻</a></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-title">
+                <div class="title">
+                    <h3>合作品牌<br>Cooperation Brand</h3>
+                </div>
+            </div>
+        </div>
+        <div class="footer-header">
+            <div class="inner">
+                <ul class="clear">
+                    <li>
+                        <a href="#"><img src="images/footer-icon1.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/footer-icon2.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/footer-icon3.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/footer-icon4.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/footer-icon5.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/footer-icon6.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/footer-icon7.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/footer-icon8.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/footer-icon9.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/footer-icon10.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/footer-icon11.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/footer-icon12.jpg"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <h1>建筑新浪潮</h1>
+            <p>公司地址：江苏省苏州市园区金鸡湖大道路000号</p>
+            <p>Copyright © 2016 家装饰有限公司</p>
+        </div>
+    </div>
+</body>
+</html>

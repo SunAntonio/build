@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Dynamic</title>
+    <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/dynamic.css" rel="stylesheet" type="text/css">
+    <link href="../css/media-dynamic.css" rel="stylesheet" type="text/css">
+    <script src="../js/jquery-3.1.0.min.js"></script>
+    <script src="../js/style.js"></script>
+    <script>
+        $(function(){
+            // 缓存tabs
+            var $tab = $("#content > div");
+            // 一开始，要默认显示第一个选项页
+            $tab.eq(0).show();
+            // 绑定鼠标移入事件
+            $("#tabs").find("li").each(function(index){
+                // 为每一个li处理鼠标移入事件
+                $(this).on("click",function(){
+                    // 切换标题的焦点
+                    $(this).children().addClass("current");
+                    $(this).siblings().children().removeClass();
+
+                    // 切换要显示的div
+                    $tab.eq(index).stop().fadeIn().siblings().hide();
+                });
+            });
+            var $nav =$(".nav").find("li");
+            $nav.eq(3).addClass("bg");
+            $nav.each(function(index){
+                $(this).on("click",function(){
+
+                    // 切换标题的焦点
+                    $(this).addClass("bg");
+                    $(this).siblings().removeClass();
+                });
+            })
+        });
+    </script>
+</head>
+<body>
+<div id="iphone-head">
+    <span><a>动态</a></span>
+    <span class="fa fa-angle-down menu-right"><a></a></span>
+</div>
+<div class="body"></div>
+<div class="background"></div>
+<div class="contain clear">
+    <div class="inner">
+        <div class="header">
+            <h1>建筑新浪潮</h1>
+            <div class="nav">
+                <ul class="clear">
+                    <li><a href="../index.html">首页</a></li>
+                    <li><a href="about.html">我们</a></li>
+                    <li><a href="case.html">案例</a></li>
+                    <li><a href="dynamic.html">动态</a></li>
+                    <li><a href="relation.html">联系</a></li>
+                    <li><a href="team.html">设计师团队</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main clear">
+            <div id="tabs">
+                <ul>
+                    <li><a href="#" class="current">全部</a></li>
+                    <li><a href="#">装修知识</a></li>
+                    <li><a href="#">装修资讯</a></li>
+                </ul>
+                <div id="content">
+                    <div class="clear">
+                        <ul class="clear">
+                            <li>
+                                <div class="left">
+                                    <a><img src="../images/dy1.jpg"></a>
+                                </div>
+                                <div class="right">
+                                    <h3>【装修知识】家装细节之开关插座的选择01</h3>
+                                    <div class="post-comment">
+                                        <span class="post_date">发布日期：
+                                            <span data-date="2016-08-26 09:59:36" class="post_date_text">2016-08-26</span>
+                                        </span>
+                                    </div>
+                                    <div class="content-detail">
+                                        <p>开关插座的关键不用多说，大家都懂得，如何判断开关插座的品质呢？有几点倒是可以借鉴。1、将开关或插座的外框取下来，用手捏一下，如果不会断裂说明是比较好的PC料...</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <a><img src="../images/dy1.jpg"></a>
+                                </div>
+                                <div class="right">
+                                    <h3>【装修知识】家装细节之开关插座的选择01</h3>
+                                    <div class="post-comment">
+                                        <span class="post_date">发布日期：
+                                            <span data-date="2016-08-26 09:59:36" class="post_date_text">2016-08-26</span>
+                                        </span>
+                                    </div>
+                                    <div class="content-detail">
+                                        <p>开关插座的关键不用多说，大家都懂得，如何判断开关插座的品质呢？有几点倒是可以借鉴。1、将开关或插座的外框取下来，用手捏一下，如果不会断裂说明是比较好的PC料...</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <a><img src="../images/dy1.jpg"></a>
+                                </div>
+                                <div class="right">
+                                    <h3>【装修知识】家装细节之开关插座的选择01</h3>
+                                    <div class="post-comment">
+                                        <span class="post_date">发布日期：
+                                            <span data-date="2016-08-26 09:59:36" class="post_date_text">2016-08-26</span>
+                                        </span>
+                                    </div>
+                                    <div class="content-detail">
+                                        <p>开关插座的关键不用多说，大家都懂得，如何判断开关插座的品质呢？有几点倒是可以借鉴。1、将开关或插座的外框取下来，用手捏一下，如果不会断裂说明是比较好的PC料...</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <a><img src="../images/dy1.jpg"></a>
+                                </div>
+                                <div class="right">
+                                    <h3>【装修资讯】家装细节之开关插座的选择01</h3>
+                                    <div class="post-comment">
+                                        <span class="post_date">发布日期：
+                                            <span data-date="2016-08-26 09:59:36" class="post_date_text">2016-08-26</span>
+                                        </span>
+                                    </div>
+                                    <div class="content-detail">
+                                        <p>开关插座的关键不用多说，大家都懂得，如何判断开关插座的品质呢？有几点倒是可以借鉴。1、将开关或插座的外框取下来，用手捏一下，如果不会断裂说明是比较好的PC料...</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <a><img src="../images/dy1.jpg"></a>
+                                </div>
+                                <div class="right">
+                                    <h3>【装修资讯】家装细节之开关插座的选择01</h3>
+                                    <div class="post-comment">
+                                        <span class="post_date">发布日期：
+                                            <span data-date="2016-08-26 09:59:36" class="post_date_text">2016-08-26</span>
+                                        </span>
+                                    </div>
+                                    <div class="content-detail">
+                                        <p>开关插座的关键不用多说，大家都懂得，如何判断开关插座的品质呢？有几点倒是可以借鉴。1、将开关或插座的外框取下来，用手捏一下，如果不会断裂说明是比较好的PC料...</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <a><img src="../images/dy1.jpg"></a>
+                                </div>
+                                <div class="right">
+                                    <h3>【装修资讯】家装细节之开关插座的选择01</h3>
+                                    <div class="post-comment">
+                                        <span class="post_date">发布日期：
+                                            <span data-date="2016-08-26 09:59:36" class="post_date_text">2016-08-26</span>
+                                        </span>
+                                    </div>
+                                    <div class="content-detail">
+                                        <p>开关插座的关键不用多说，大家都懂得，如何判断开关插座的品质呢？有几点倒是可以借鉴。1、将开关或插座的外框取下来，用手捏一下，如果不会断裂说明是比较好的PC料...</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clear">
+                        <ul class="clear">
+                            <li>
+                                <div class="left">
+                                    <a><img src="../images/dy1.jpg"></a>
+                                </div>
+                                <div class="right">
+                                    <h3>【装修知识】家装细节之开关插座的选择01</h3>
+                                    <div class="post-comment">
+                                        <span class="post_date">发布日期：
+                                            <span data-date="2016-08-26 09:59:36" class="post_date_text">2016-08-26</span>
+                                        </span>
+                                    </div>
+                                    <div class="content-detail">
+                                        <p>开关插座的关键不用多说，大家都懂得，如何判断开关插座的品质呢？有几点倒是可以借鉴。1、将开关或插座的外框取下来，用手捏一下，如果不会断裂说明是比较好的PC料...</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <a><img src="../images/dy1.jpg"></a>
+                                </div>
+                                <div class="right">
+                                    <h3>【装修知识】家装细节之开关插座的选择01</h3>
+                                    <div class="post-comment">
+                                        <span class="post_date">发布日期：
+                                            <span data-date="2016-08-26 09:59:36" class="post_date_text">2016-08-26</span>
+                                        </span>
+                                    </div>
+                                    <div class="content-detail">
+                                        <p>开关插座的关键不用多说，大家都懂得，如何判断开关插座的品质呢？有几点倒是可以借鉴。1、将开关或插座的外框取下来，用手捏一下，如果不会断裂说明是比较好的PC料...</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <a><img src="../images/dy1.jpg"></a>
+                                </div>
+                                <div class="right">
+                                    <h3>【装修知识】家装细节之开关插座的选择01</h3>
+                                    <div class="post-comment">
+                                        <span class="post_date">发布日期：
+                                            <span data-date="2016-08-26 09:59:36" class="post_date_text">2016-08-26</span>
+                                        </span>
+                                    </div>
+                                    <div class="content-detail">
+                                        <p>开关插座的关键不用多说，大家都懂得，如何判断开关插座的品质呢？有几点倒是可以借鉴。1、将开关或插座的外框取下来，用手捏一下，如果不会断裂说明是比较好的PC料...</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clear">
+                        <ul class="clear">
+                            <li>
+                                <div class="left">
+                                    <a><img src="../images/dy1.jpg"></a>
+                                </div>
+                                <div class="right">
+                                    <h3>【装修资讯】家装细节之开关插座的选择01</h3>
+                                    <div class="post-comment">
+                                        <span class="post_date">发布日期：
+                                            <span data-date="2016-08-26 09:59:36" class="post_date_text">2016-08-26</span>
+                                        </span>
+                                    </div>
+                                    <div class="content-detail">
+                                        <p>开关插座的关键不用多说，大家都懂得，如何判断开关插座的品质呢？有几点倒是可以借鉴。1、将开关或插座的外框取下来，用手捏一下，如果不会断裂说明是比较好的PC料...</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <a><img src="../images/dy1.jpg"></a>
+                                </div>
+                                <div class="right">
+                                    <h3>【装修资讯】家装细节之开关插座的选择01</h3>
+                                    <div class="post-comment">
+                                        <span class="post_date">发布日期：
+                                            <span data-date="2016-08-26 09:59:36" class="post_date_text">2016-08-26</span>
+                                        </span>
+                                    </div>
+                                    <div class="content-detail">
+                                        <p>开关插座的关键不用多说，大家都懂得，如何判断开关插座的品质呢？有几点倒是可以借鉴。1、将开关或插座的外框取下来，用手捏一下，如果不会断裂说明是比较好的PC料...</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <a><img src="../images/dy1.jpg"></a>
+                                </div>
+                                <div class="right">
+                                    <h3>【装修资讯】家装细节之开关插座的选择01</h3>
+                                    <div class="post-comment">
+                                        <span class="post_date">发布日期：
+                                            <span data-date="2016-08-26 09:59:36" class="post_date_text">2016-08-26</span>
+                                        </span>
+                                    </div>
+                                    <div class="content-detail">
+                                        <p>开关插座的关键不用多说，大家都懂得，如何判断开关插座的品质呢？有几点倒是可以借鉴。1、将开关或插座的外框取下来，用手捏一下，如果不会断裂说明是比较好的PC料...</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom border">
+        <h1>建筑新浪潮</h1>
+        <p>公司地址：江苏省苏州市园区金鸡湖大道路000号</p>
+        <p>Copyright © 2016 家装饰有限公司</p>
+    </div>
+</div>
+</body>
+
+</html>

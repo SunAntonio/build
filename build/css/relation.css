@@ -1,0 +1,5 @@
+.contain .inner .main{padding-bottom: 5em}
+.contain .inner .main .left{float: left;width: 60%}
+.contain .inner .main .left img{width: 100%}
+.contain .inner .main .right{float: left;width: 35%;color: #fff;text-align: left;padding-left: 1em;font-size: 0.9em;}
+

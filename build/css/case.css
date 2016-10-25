@@ -1,0 +1,28 @@
+.contain .border{margin-top: 5em}
+.contain .inner .main{font-size: 1em;text-align: left;color: #696969;font-family: 微軟正黑體;}
+.contain .inner .main .left{width: 68%;float: left;background: #f2f2f2;padding: 1.5em 1em;margin-right: 1em;text-align: center}
+.contain .inner .main .left ul li{width: 48%;float: left;margin-left: 0.8em;}
+.contain .inner .main .left ul li .image{width: 100%;}
+.contain .inner .main .left ul li .image img{width: 100%}
+.contain .inner .main .left ul li p{line-height: 3em;padding-bottom: 1em}
+.contain .inner .main .left ul li p a{color: #696969}
+.contain .inner .main .right{width: 27%;float: left;background: #f2f2f2;padding:5px}
+.contain .inner .main .right .step{width: 100%;height: 2em;background: #000000;line-height: 2em;font-size: 1em}
+.contain .inner .main .right .step span{float: left;font-size: 1em;padding-left: 1em;color: #FFF;}
+.contain .inner .main .right .step a{float: right;font-size: 0.8em;padding-right: 1em;}
+.contain .inner .main .right .post{width: 100%;height: 100px;}
+.contain .inner .main .right .post ul li{float: left;padding-right: 1em}
+.contain .inner .main .right .post ul li a{color: #3b8ced;border-bottom: 1px dotted;}
+.contain .inner .main .right .post .main{text-align: left;padding-top: 10px;}
+.contain .inner .main .right .post .main li{width: 100%;padding-bottom: 1em;}
+.contain .inner .main .right .post .main li h3{font-size: 16px;line-height: 16px;padding: 5px;}
+.contain .inner .main .right .post .main li .detail{position: relative}
+.contain .inner .main .right .post .main li img{width: 100%;height: 100%}
+.contain .inner .main .right .post .main li .detail{overflow: hidden;vertical-align: top;box-sizing: border-box;margin:20px;padding:5px;box-shadow:0 0 10px 15px #eeeeee }
+.contain .inner .main .right .post .main li .detail:hover  .Mask{display: block}
+.contain .inner .main .right .post .main li .detail span{position: absolute;left:8em;top: 2em;}
+.contain .inner .main .right .post .main li .post-comment{color: #686868;font-size: 12px;line-height: 12px;text-align: left;margin-bottom: 1em;padding-left: 1em;}
+.contain .inner .main .right .post .main li .content-detail{padding:0 1em;}
+.contain .inner .main .right .post .main li .content-detail p{color: #aaaaaa;font-size: 13px;}
+.contain .inner .main .right .post .main li .content-detail a{color:#f97f7f;font-size:13px;float: right;margin-top: 10px;margin-right: 5px;}
+

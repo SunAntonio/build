@@ -1,0 +1,9 @@
+@media screen and (max-width: 1200px) {
+    .contain .inner{width: 100%}
+    .contain .inner .header .nav{display: none}
+    .contain .inner .main .section ul li{width: 100%;padding: 0 0 1%;background: #fff;float: none;margin-left: 0;}
+    .contain .inner .main .section ul li .sec-img{margin-bottom: 0;width: 60%;padding: 2% 20% 2%;}
+    .contain .inner .main .section ul li .more{background: #000000;width: 98%;height: 46px;line-height: 46px;margin: 0 2% 0 1%;}
+    .contain .border {margin-top: 2em;}
+    #iphone-head{display: block}
+}
